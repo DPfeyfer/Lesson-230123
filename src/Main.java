@@ -37,8 +37,5 @@ public class Main {
         String fullName = lastName + ' ' + firstName + ' ' + middleName;
         fullName = fullName.replace("I", "O");
         System.out.println("Full name employee is " + fullName);
-
-        System.out.println();
-
     }
 }
