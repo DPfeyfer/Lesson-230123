@@ -22,8 +22,10 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + ' ' + firstName + ' ' + middleName;
-        System.out.println("Full name of the employee to fill out the report\n"
-                + fullName.toUpperCase());
+//        System.out.println("Full name of the employee to fill out the report\n"
+//                + fullName.toUpperCase());
+        String upperCase = fullName.toUpperCase();
+        System.out.println(upperCase);
 
         System.out.println();
     }
